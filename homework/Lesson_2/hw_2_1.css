@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1, h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+hr {
+    margin: 20px 0;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.item {
+    width: 250px;
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item img {
+    width: 60%;
+    object-fit: contain;
+}
+.item p {
+    font-size: 20px;
+    font-weight: bold;
+}
