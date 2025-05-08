@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HW 4.2</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        header, footer {
+            height: 20vh;
+            font-family: Inter, sans-serif;
+            /*font-weight: 400;*/
+            font-size: 45px;
+        }
+        .centered {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header {
+            background-color: #8D8484;
+        }
+        footer {
+            background-color: #BDBDBD;
+        }
+        main {
+            height: 60vh;
+            display: flex;
+            color: white;
+            font-family: Inter, sans-serif;
+            /*font-weight: 400;*/
+            font-size: 45px;
+        }
+        section {
+            width: 73vw;
+        }
+        article {
+            height: 20vh;
+        }
+        .main__content-1 {
+            background-color: #776969;
+        }
+        .main__content-2 {
+            background-color: #643030;
+        }
+        .main__content-3 {
+            background-color: #441818;
+        }
+        aside {
+            width: 27vw;
+        }
+        main aside div {
+            height: 50%;
+        }
+        .main__spam-1 {
+            background-color: #937575;
+        }
+        .main__spam-2 {
+            background-color: #644C4C;
+        }
+    </style>
+</head>
+<body>
+<header class="centered"><p>Header</p></header>
+<main>
+    <section>
+        <article class="main__content-1 centered"><p>Content - 1</p></article>
+        <article class="main__content-2 centered"><p>Content - 2</p></article>
+        <article class="main__content-3 centered"><p>Content - 3</p></article>
+    </section>
+    <aside>
+        <div class="main__spam-1 centered"><p>spam - 1</p></div>
+        <div class="main__spam-2 centered"><p>spam - 2</p></div>
+    </aside>
+</main>
+<footer class="centered"><p>footer</p></footer>
+</body>
+</html>
