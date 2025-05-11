@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #CCC;
+}
+.preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+.square {
+    width: 1vw;
+    height: 1vw;
+    background: #FFF;
+    animation: square 1s infinite linear;
+}
+
+@keyframes square {
+    /*from {*/
+    /*    .*/
+    /*}*/
+    /*20% {*/
+
+    /*}*/
+    /*to {*/
+
+    /*}*/
+}
