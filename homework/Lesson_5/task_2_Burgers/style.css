@@ -10,12 +10,13 @@ body{
 .w-1340{
     width: 1340px;
     margin: 0 auto;
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*flex-direction: column;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 nav{
+    width: 100%;
     padding-top: 36px;
     display: flex;
     justify-content: flex-end;
@@ -59,11 +60,12 @@ ul a{
     line-height: 88.896%; /* 95.198px */
     letter-spacing: -2.142px;
     text-transform: uppercase;
-    margin: 72px auto 33px auto;
+    /*margin: 72px auto 33px auto;*/
+    margin: 72px 0 33px 0;
 }
 .header-img{
     display: block;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
 }
 /* -------------------- MAIN -------------------- */
 .about {
