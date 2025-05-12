@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #CCC;
+}
+.preloader {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.preloader .truck {
+    width: 10vw;
+    margin-bottom: -1%;
+    margin-left: -3%;
+}
+.preloader .earth {
+    width: 50vh;
+    height: 50vh;
+    animation: move 3s infinite linear;
+}
+
+@keyframes move {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #CCC;
+}
+.preloader {
+}
+.spinner {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    border: 1vw solid white;
+    border-top-color: red;
+    /*border-top-width: 1.1vw;*/
+
+    /*animation: spin 1s infinite ease-in-out;*/
+    animation: spin 1s infinite ease;
+    /*animation: spin 1s infinite ease-in;*/
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

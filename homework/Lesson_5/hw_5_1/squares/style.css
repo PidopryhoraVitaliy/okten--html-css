@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 .container {
     width: 100vw;
@@ -13,23 +14,71 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1vw;
+    gap: 2vw;
 }
 .square {
     width: 1vw;
     height: 1vw;
     background: #FFF;
-    animation: square 1s infinite linear;
+    /*border: 1px solid #CFC;*/
 }
 
+.square-1 {
+    animation: square 1.2s infinite linear;
+}
+.square-2 {
+    animation: square 1.2s infinite linear;
+    animation-delay: 0.1s;
+}
+.square-3 {
+    animation: square 1.2s infinite linear;
+    animation-delay: 0.2s;
+}
+.square-4 {
+    animation: square 1.2s infinite linear;
+    animation-delay: 0.3s;
+}
+.square-5 {
+    animation: square 1.2s infinite linear;
+    animation-delay: 0.4s;
+}
+.square-6 {
+    animation: square 1.2s infinite linear;
+    animation-delay: 0.5s;
+}
+.square-7 {
+    animation: square 1.2s infinite linear;
+    animation-delay: 0.6s;
+}
+.square-8 {
+    animation: square 1.2s infinite linear;
+    animation-delay: 0.7s;
+}
+.square-9 {
+    animation: square 1.2s infinite linear;
+    animation-delay: 0.8s;
+}
+.square-10 {
+    animation: square 1.2s infinite linear;
+    animation-delay: 0.9s;
+}
+
+
 @keyframes square {
-    /*from {*/
-    /*    .*/
-    /*}*/
-    /*20% {*/
-
-    /*}*/
-    /*to {*/
-
-    /*}*/
+    from {
+        transform: scale(1);
+        /*border: 1px solid #FFF;*/
+    }
+    20% {
+        transform: scale(1.7);
+        /*border: 1px solid #CFC;*/
+    }
+    40% {
+        transform: scale(1);
+        /*border: 1px solid #FFF;*/
+    }
+    to {
+        transform: scale(1);
+        /*border: 1px solid #FFF;*/
+    }
 }
