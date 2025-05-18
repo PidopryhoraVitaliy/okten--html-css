@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrap {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form-wrap {
+    width: 30vw;
+    height: 50vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-form-wrap a {
+    text-decoration: none;
+}
+.login-form, .registration {
+    width: 100%;
+    border: 1px solid lightgray;
+    font-weight: bold;
+}
+.login-form {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-form form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-form>img {
+    height: 5vh;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+.login-form form input {
+    width: 100%;
+    height: 3.5vh;
+    margin-top: 0.5vh;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    background-color: #FAFAFA;
+    text-indent: 10px;
+}
+.login-form form input[type="submit"] {
+    margin-top: 0.8vh;
+    height: 3vh;
+    border: none;
+    border-radius: 8px;
+    background: #68B5FA;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 2vh;
+}
+.login-form form>div {
+    color: gray;
+}
+.login-form .facebook-login {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #395896;
+}
+.login-form .facebook-login img {
+    height: 2vh;
+    margin-right: 0.8vh;
+}
+.login-form form a {
+    margin-top: 2vh;
+    color: #194777;
+}
+.registration {
+    margin: 2vh 0;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: gray;
+}
+.registration span, .registration a {
+    margin: 0 1vh;
+}
+.registration a {
+    color: #68B5FA;
+}
