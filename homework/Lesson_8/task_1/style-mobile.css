@@ -1,0 +1,9 @@
+@media screen and (max-width: 480px) {
+    .gallery {
+        margin: 32px 16px;
+        gap: 40px;
+    }
+    .gallery-item {
+        width: 343px;
+    }
+}
