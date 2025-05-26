@@ -1,0 +1,13 @@
+/*@media screen and (min-width: 481px) and (max-width: 768px) {*/
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .gallery {
+        margin: 48px 24px;
+        gap: 40px 24px;
+        flex-wrap: wrap;
+        width: 720px;
+    }
+    .gallery-item {
+        width: 348px;
+        /*height: 258px;*/
+    }
+}
